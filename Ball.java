@@ -2,7 +2,7 @@ import java.util.*;
 import java .io.*;
 public class Ball {
     public static void main(String[] args)throws IOException{
-        Scanner sc = new Scanner(new File("lameloball.txt"));
+        Scanner sc = new Scanner(new File("judgein.txt"));
         long num = sc.nextLong();
         ArrayList<Long> arr = new ArrayList<Long>();
         for(int i = 0; i <num; i++)
